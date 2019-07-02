@@ -7,3 +7,6 @@ CREATE TABLE characters (
   book_id INTEGER
   );
   
+CREATE TABLE books (
+  id INTEGER PRIMARY KEY,
+  )
