@@ -14,10 +14,10 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT spieces, COUNT(spieces)
+  "SELECT species, COUNT(species)
   FROM characters
-  GROUP BY spieces
-  ORDER BY COUNT(spieces) DESC
+  GROUP BY species
+  ORDER BY COUNT(species) DESC
   LIMIT 1;"
 end
 
