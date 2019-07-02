@@ -4,7 +4,7 @@ CREATE TABLE characters (
   motto TEXT,
   species TEXT,
   author_id INTEGER,
-  book_id INTEGER
+  series_id INTEGER
 );
   
 CREATE TABLE books (
